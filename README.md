@@ -21,7 +21,7 @@ The dataset of pictures and age is given in the .png and .csv formats.
 1. Exploratory Data Analysis of the dataset.
 2. Data proprecessing for modelling.
 3. Tuning and testing a neural network, preferably **ResNet50** with an activation function **'ReLU'**, because the ReLU function does not change positive forecasts of the network, and all negative ones lead to zero. Numbers less than 0 cannot be.
-4. **Quality metric is accuracy < 6.5.**
+4. **Quality metric is MAE < 6.5 or MSE.**
 5. For data extraction please use ImageDataGenerator —flow_from_dataframe(dataframe, directory, ...)
 
 ## References
